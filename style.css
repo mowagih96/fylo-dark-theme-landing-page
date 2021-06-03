@@ -99,12 +99,12 @@ nav a {
 }
 
 .second-section {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  height: 100vh;
 }
 
 .second-section .card {
@@ -141,4 +141,50 @@ nav a {
 
 .second-section .card .card-description p {
   font-size: 1.4rem;
+}
+
+.third-section {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-section .cover {
+  flex: 1;
+}
+
+.third-section .cover img {
+  width: 70rem;
+  height: 40rem;
+}
+
+.third-section .text {
+  flex: 1;
+  color: var(--white);
+}
+
+.third-section .text h1 {
+  font-size: 4rem;
+  width: 60%;
+}
+
+.third-section .text h1,
+.third-section .text p {
+  margin-bottom: 2rem;
+}
+
+.third-section .link {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--cyan);
+}
+
+.third-section .link p {
+  margin: 0 0.7rem 0.7rem 0;
+  color: var(--cyan);
+  cursor: pointer;
 }
